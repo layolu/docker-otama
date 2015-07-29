@@ -1,5 +1,4 @@
 # docker-otama
-Otama CBIR engine on a docker image
 
 [Otama][1] is a [CBIR][2] (Content-based image retrieval) engine.
 It enables querying similar images database by an image file, and calculate the similarity between two images, and so on.
@@ -8,7 +7,9 @@ For the further details, please visit the project's [wiki page][3] on GitHub (Ja
 (notice: I'm not the developer of Otama.)
 
 ## About this image
-This image is built with following options:
+This image based on the debian:jassie image.
+
+Otama in this image is built with following options:
 - Enable MySQL Support for database
 - Enable Leveldb (default)
 - Install [ruby API][4] (default)
